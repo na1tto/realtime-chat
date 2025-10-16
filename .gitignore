@@ -1,0 +1,40 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*_test
+
+# Output of 'go build'
+*.out
+
+# Dependency management
+/vendor/
+go.mod
+go.sum
+
+# Editor-specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Operating System files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Temporary files
+*~
+*.bak
+*.tmp
