@@ -1,0 +1,21 @@
+*.go linguist-detectable=true
+
+node_modules/* linguist-vendored
+vendor/* linguist-vendored
+dist/* linguist-vendored
+build/* linguist-vendored
+public/* linguist-vendored
+
+package-lock.json linguist-vendored
+yarn.lock linguist-vendored
+
+*.config.js linguist-vendored
+webpack.config.js linguist-vendored
+babel.config.js linguist-vendored
+postcss.config.js linguist-vendored
+
+*.md linguist-documentation
+*.html linguist-documentation
+*.css linguist-vendored
+*.scss linguist-vendored
+*.svg linguist-vendored
